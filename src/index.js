@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import CardList from './CardList';
-import { robots } from './robots';
+
+import  App from './statecomponents/App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <CardList robots ={robots} />
+    <App/>
     </>
 );
 
